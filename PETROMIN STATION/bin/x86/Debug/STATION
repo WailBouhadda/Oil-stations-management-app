@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?Stations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Station>
+<Longitude>-9.19447659</Longitude>
+  <Latitude>30.46955281</Latitude>
+  <ProductLines>
+    <!--Essence-->
+<ProductLine>
+<FromDate>2019-06-20T08:00:22.26</FromDate>
+<ToDate>2019-06-30T08:00:22.26</ToDate>
+<Price>11.34</Price>
+Product
+<ID>9B22B22E-54AE-4755-B470-06DE42966004</ID>
+</Product>
+</ProductLine>
+    <!--Diesel-->
+<ProductLine>
+<FromDate>2019-06-20T08:00:22.26</FromDate>
+<ToDate>2019-06-30T08:00:22.26</ToDate>
+<Price>9.6</Price>
+Product
+<ID>A16E1ED2-65C5-4076-8028-E4A837CE4EC7</ID>
+</Product>
+</ProductLine>
+</ProductLines>
+</Station>
+    <Station>
+<Longitude>-6.97108705</Longitude>
+  <Latitude>32.25379996</Latitude>
+  <ProductLines>
+    <!--Essence-->
+<ProductLine>
+<FromDate>2019-06-20T08:00:22.26</FromDate>
+<ToDate>2019-06-30T08:00:22.26</ToDate>
+<Price>11.35</Price>
+Product
+<ID>9B22B22E-54AE-4755-B470-06DE42966004</ID>
+</Product>
+</ProductLine>
+    <!--Diesel-->
+<ProductLine>
+<FromDate>2019-06-20T08:00:22.26</FromDate>
+<ToDate>2019-06-30T08:00:22.26</ToDate>
+<Price>9.61</Price>
+Product
+<ID>A16E1ED2-65C5-4076-8028-E4A837CE4EC7</ID>
+</Product>
+</ProductLine>
+</ProductLines>
+</Station>
+    <Station>
+<Longitude>-7.52819259</Longitude>
+  <Latitude>33.62198447</Latitude>
+  <ProductLines>
+    <!--Essence-->
+<ProductLine>
+<FromDate>2019-06-20T08:00:22.26</FromDate>
+<ToDate>2019-06-30T08:00:22.26</ToDate>
+<Price>11.35</Price>
+Product
+<ID>9B22B22E-54AE-4755-B470-06DE42966004</ID>
+</Product>
+</ProductLine>
+    <!--Diesel-->
+<ProductLine>
+<FromDate>2019-06-20T08:00:22.26</FromDate>
+<ToDate>2019-06-30T08:00:22.26</ToDate>
+<Price>9.61</Price>
+Product
+<ID>A16E1ED2-65C5-4076-8028-E4A837CE4EC7</ID>
+</Product>
+</ProductLine>
+</ProductLines>
+</Station>
+    <Station>
+<Longitude>-7.15721358</Longitude>
+  <Latitude>33.59030986</Latitude>
+  <ProductLines>
+    <!--Essence-->
+<ProductLine>
+<FromDate>2019-06-20T08:00:22.26</FromDate>
+<ToDate>2019-06-30T08:00:22.26</ToDate>
+<Price>11.35</Price>
+Product
+<ID>9B22B22E-54AE-4755-B470-06DE42966004</ID>
+</Product>
+</ProductLine>
+    <!--Diesel-->
+<ProductLine>
+<FromDate>2019-06-20T08:00:22.26</FromDate>
+<ToDate>2019-06-30T08:00:22.26</ToDate>
+<Price>9.61</Price>
+Product
+<ID>A16E1ED2-65C5-4076-8028-E4A837CE4EC7</ID>
+</Product>
+</ProductLine>
+</ProductLines>
+</Station>
+    <Station>
+<Longitude>-7.53296692</Longitude>
+  <Latitude>33.56226906</Latitude>
+  <ProductLines>
+    <!--Essence-->
+<ProductLine>
+<FromDate>2019-06-20T08:00:22.26</FromDate>
+<ToDate>2019-06-30T08:00:22.26</ToDate>
+<Price>11.35</Price>
+Product
+<ID>9B22B22E-54AE-4755-B470-06DE42966004</ID>
+</Product>
+</ProductLine>
+    <!--Diesel-->
+<ProductLine>
+<FromDate>2019-06-20T08:00:22.26</FromDate>
+<ToDate>2019-06-30T08:00:22.26</ToDate>
+<Price>9.61</Price>
+Product
+<ID>A16E1ED2-65C5-4076-8028-E4A837CE4EC7</ID>
+</Product>
+</ProductLine>
+</ProductLines>
+</Station>
+    <Station>
+<Longitude>-7.50089843</Longitude>
+  <Latitude>33.59884007</Latitude>
+  <ProductLines>
+    <!--Essence-->
+<ProductLine>
+<FromDate>2019-06-20T08:00:22.26</FromDate>
+<ToDate>2019-06-30T08:00:22.26</ToDate>
+<Price>11.35</Price>
+Product
+<ID>9B22B22E-54AE-4755-B470-06DE42966004</ID>
+</Product>
+</ProductLine>
+    <!--Diesel-->
+<ProductLine>
+<FromDate>2019-06-20T08:00:22.26</FromDate>
+<ToDate>2019-06-30T08:00:22.26</ToDate>
+<Price>9.61</Price>
+Product
+<ID>A16E1ED2-65C5-4076-8028-E4A837CE4EC7</ID>
+</Product>
+</ProductLine>
+</ProductLines>
+</Station>
+    <Station>
+<Longitude>-8.70773792</Longitude>
+  <Latitude>32.59603464</Latitude>
+  <ProductLines>
+    <!--Essence-->
+<ProductLine>
+<FromDate>2019-06-20T08:00:22.26</FromDate>
+<ToDate>2019-06-30T08:00:22.26</ToDate>
+<Price>11.35</Price>
+Product
+<ID>9B22B22E-54AE-4755-B470-06DE42966004</ID>
+</Product>
+</ProductLine>
+    <!--Diesel-->
+<ProductLine>
+<FromDate>2019-06-20T08:00:22.26</FromDate>
+<ToDate>2019-06-30T08:00:22.26</ToDate>
+<Price>9.61</Price>
+Product
+<ID>A16E1ED2-65C5-4076-8028-E4A837CE4EC7</ID>
+</Product>
+</ProductLine>
+</ProductLines>
+</Station>
+    <Station>
+<Longitude>-8.49443525</Longitude>
+  <Latitude>32.91244135</Latitude>
+  <ProductLines>
+    <!--Essence-->
+<ProductLine>
+<FromDate>2019-06-20T08:00:22.26</FromDate>
+<ToDate>2019-06-30T08:00:22.26</ToDate>
+<Price>11.38</Price>
+Product
+<ID>9B22B22E-54AE-4755-B470-06DE42966004</ID>
+</Product>
+</ProductLine>
+    <!--Diesel-->
+<ProductLine>
+<FromDate>2019-06-20T08:00:22.26</FromDate>
+<ToDate>2019-06-30T08:00:22.26</ToDate>
+<Price>9.64</Price>
+Product
+<ID>A16E1ED2-65C5-4076-8028-E4A837CE4EC7</ID>
+</Product>
+</ProductLine>
+</ProductLines>
+</Station>
+    <Station>
+<Longitude>-8.46363672</Longitude>
+  <Latitude>32.84743984</Latitude>
+  <ProductLines>
+    <!--Essence-->
+<ProductLine>
+<FromDate>2019-06-20T08:00:22.26</FromDate>
+<ToDate>2019-06-30T08:00:22.26</ToDate>
+<Price>11.39</Price>
+Product
+<ID>9B22B22E-54AE-4755-B470-06DE42966004</ID>
+</Product>
+</ProductLine>
+    <!--Diesel-->
+<ProductLine>
+<FromDate>2019-06-20T08:00:22.26</FromDate>
+<ToDate>2019-06-30T08:00:22.26</ToDate>
+<Price>9.65</Price>
+Product
+<ID>A16E1ED2-65C5-4076-8028-E4A837CE4EC7</ID>
+</Product>
+</ProductLine>
+</ProductLines>
+</Station>
+    <Station>
+<Longitude>-7.2609346</Longitude>
+  <Latitude>33.09481211</Latitude>
+  <ProductLines>
+    <!--Essence-->
+<ProductLine>
+<FromDate>2019-06-20T08:00:22.26</FromDate>
+<ToDate>2019-06-30T08:00:22.26</ToDate>
+<Price>11.39</Price>
+Product
+<ID>9B22B22E-54AE-4755-B470-06DE42966004</ID>
+</Product>
+</ProductLine>
+    <!--Diesel-->
+<ProductLine>
+<FromDate>2019-06-20T08:00:22.26</FromDate>
+<ToDate>2019-06-30T08:00:22.26</ToDate>
+<Price>9.65</Price>
+Product
+<ID>A16E1ED2-65C5-4076-8028-E4A837CE4EC7</ID>
+</Product>
+</ProductLine>
+</ProductLines>
+</Station>
+    <Station>
+<Longitude></Longitude>
+  <Latitude></Latitude>
+  <ProductLines>
+    <!--Essence-->
+<ProductLine>
+<FromDate></FromDate>
+<ToDate></ToDate>
+<Price></Price>
+Product
+<ID></ID>
+</Product>
+</ProductLine>
+    <!--Diesel-->
+<ProductLine>
+<FromDate></FromDate>
+<ToDate></ToDate>
+<Price></Price>
+Product
+<ID></ID>
+</Product>
+</ProductLine>
+</ProductLines>
+</Station>

@@ -1,0 +1,971 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PETROMIN STATION
+</name>
+</assembly>
+<members>
+<member name="T:PETROMIN_STATION.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:PETROMIN_STATION.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:PETROMIN_STATION.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:PETROMIN_STATION.My.Resources.Resources._7942017940_df9e6e5a23_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PETROMIN_STATION.My.Resources.Resources.download__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PETROMIN_STATION.My.Resources.Resources.formation_xml_3_jours">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PETROMIN_STATION.My.Resources.Resources.images">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PETROMIN_STATION.My.Resources.Resources.website_background_Artisan_Iron_Works_LLC_wallpaper_wp80014003">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.Database2DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.Database2DataSet.STATIONDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.Database2DataSet.STATIONRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.Database2DataSet.STATIONRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.Database2DataSetTableAdapters.STATIONTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.Database2DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.Database2DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(PETROMIN_STATION.Database2DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.Database2DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(PETROMIN_STATION.Database2DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.Database2DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(PETROMIN_STATION.Database2DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.Database2DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.Database2DataSetTableAdapters.TableAdapterManager.UpdateAll(PETROMIN_STATION.Database2DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.Database2DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.Database2DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet.PETROMINDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet.PETROMINRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet.PETROMINRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSetTableAdapters.PETROMINTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(PETROMIN_STATION.PETROMIN1DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(PETROMIN_STATION.PETROMIN1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(PETROMIN_STATION.PETROMIN1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSetTableAdapters.TableAdapterManager.UpdateAll(PETROMIN_STATION.PETROMIN1DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet1.PETROMINDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet1.PETROMINRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet1.PETROMINRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet1TableAdapters.PETROMINTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(PETROMIN_STATION.PETROMIN1DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(PETROMIN_STATION.PETROMIN1DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(PETROMIN_STATION.PETROMIN1DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSet1TableAdapters.TableAdapterManager.UpdateAll(PETROMIN_STATION.PETROMIN1DataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet2.PETROMINDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet2.PETROMINRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet2.PETROMINRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet2TableAdapters.PETROMINTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(PETROMIN_STATION.PETROMIN1DataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(PETROMIN_STATION.PETROMIN1DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(PETROMIN_STATION.PETROMIN1DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSet2TableAdapters.TableAdapterManager.UpdateAll(PETROMIN_STATION.PETROMIN1DataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet4.PETROMINDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet4.PETROMINRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet4.PETROMINRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet4TableAdapters.PETROMINTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(PETROMIN_STATION.PETROMIN1DataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(PETROMIN_STATION.PETROMIN1DataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(PETROMIN_STATION.PETROMIN1DataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSet4TableAdapters.TableAdapterManager.UpdateAll(PETROMIN_STATION.PETROMIN1DataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet6.PETROMINDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet6.PETROMINRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet6.PETROMINRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet6TableAdapters.PETROMINTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(PETROMIN_STATION.PETROMIN1DataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(PETROMIN_STATION.PETROMIN1DataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(PETROMIN_STATION.PETROMIN1DataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMIN1DataSet6TableAdapters.TableAdapterManager.UpdateAll(PETROMIN_STATION.PETROMIN1DataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMIN1DataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSet.PETROMINDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSet.PETROMINRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSet.PETROMINRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSetTableAdapters.PETROMINTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMINDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(PETROMIN_STATION.PETROMINDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMINDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(PETROMIN_STATION.PETROMINDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMINDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(PETROMIN_STATION.PETROMINDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMINDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMINDataSetTableAdapters.TableAdapterManager.UpdateAll(PETROMIN_STATION.PETROMINDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSet1.PETROMINDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSet1.PETROMINRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSet1.PETROMINRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSet1TableAdapters.PETROMINTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMINDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(PETROMIN_STATION.PETROMINDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMINDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(PETROMIN_STATION.PETROMINDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMINDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(PETROMIN_STATION.PETROMINDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMINDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMINDataSet1TableAdapters.TableAdapterManager.UpdateAll(PETROMIN_STATION.PETROMINDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSet2.PETROMINDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSet2.PETROMINRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSet2.PETROMINRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSet2TableAdapters.PETROMINTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMINDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(PETROMIN_STATION.PETROMINDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMINDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(PETROMIN_STATION.PETROMINDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMINDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(PETROMIN_STATION.PETROMINDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMINDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.PETROMINDataSet2TableAdapters.TableAdapterManager.UpdateAll(PETROMIN_STATION.PETROMINDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.PETROMINDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.STATIONDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.STATIONDataSet.StationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.STATIONDataSet.StationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.STATIONDataSet.StationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.STATIONDataSetTableAdapters.StationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.STATIONDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.STATIONDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(PETROMIN_STATION.STATIONDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.STATIONDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(PETROMIN_STATION.STATIONDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.STATIONDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(PETROMIN_STATION.STATIONDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.STATIONDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.STATIONDataSetTableAdapters.TableAdapterManager.UpdateAll(PETROMIN_STATION.STATIONDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.STATIONDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.STATIONDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.STATIONS1DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.STATIONS1DataSet.StationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.STATIONS1DataSet.StationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.STATIONS1DataSet.StationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.STATIONS1DataSetTableAdapters.StationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.STATIONS1DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.STATIONS1DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(PETROMIN_STATION.STATIONS1DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.STATIONS1DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(PETROMIN_STATION.STATIONS1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.STATIONS1DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(PETROMIN_STATION.STATIONS1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.STATIONS1DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.STATIONS1DataSetTableAdapters.TableAdapterManager.UpdateAll(PETROMIN_STATION.STATIONS1DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.STATIONS1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.STATIONS1DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSet1.StationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSet1.StationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSet1.StationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSet1TableAdapters.StationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.StationsDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(PETROMIN_STATION.StationsDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.StationsDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(PETROMIN_STATION.StationsDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.StationsDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(PETROMIN_STATION.StationsDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.StationsDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.StationsDataSet1TableAdapters.TableAdapterManager.UpdateAll(PETROMIN_STATION.StationsDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSet.StationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSet.StationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSet.StationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSetTableAdapters.StationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.StationsDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(PETROMIN_STATION.StationsDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.StationsDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(PETROMIN_STATION.StationsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.StationsDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(PETROMIN_STATION.StationsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.StationsDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.StationsDataSetTableAdapters.TableAdapterManager.UpdateAll(PETROMIN_STATION.StationsDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSet2.StationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSet2.StationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSet2.StationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSet2TableAdapters.StationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.StationsDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(PETROMIN_STATION.StationsDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.StationsDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(PETROMIN_STATION.StationsDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.StationsDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(PETROMIN_STATION.StationsDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.StationsDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PETROMIN_STATION.StationsDataSet2TableAdapters.TableAdapterManager.UpdateAll(PETROMIN_STATION.StationsDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PETROMIN_STATION.StationsDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

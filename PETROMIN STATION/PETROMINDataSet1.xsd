@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PETROMINDataSet1" targetNamespace="http://tempuri.org/PETROMINDataSet1.xsd" xmlns:mstns="http://tempuri.org/PETROMINDataSet1.xsd" xmlns="http://tempuri.org/PETROMINDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="PETROMINConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="PETROMINConnectionString (MySettings)" PropertyReference="ApplicationSettings.PETROMIN_STATION.My.MySettings.GlobalReference.Default.PETROMINConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PETROMINTableAdapter" GeneratorDataComponentClassName="PETROMINTableAdapter" Name="PETROMIN" UserDataComponentName="PETROMINTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="PETROMINConnectionString (MySettings)" DbObjectName="PETROMIN" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Longitude, Latitude, [Date de debut], [Date de fin], [PrixPublic Supersp], [PrixPublic Gasoil10PPM] FROM PETROMIN</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Longitude" DataSetColumn="Longitude" />
+              <Mapping SourceColumn="Latitude" DataSetColumn="Latitude" />
+              <Mapping SourceColumn="Date de debut" DataSetColumn="Date de debut" />
+              <Mapping SourceColumn="Date de fin" DataSetColumn="Date de fin" />
+              <Mapping SourceColumn="PrixPublic Supersp" DataSetColumn="PrixPublic Supersp" />
+              <Mapping SourceColumn="PrixPublic Gasoil10PPM" DataSetColumn="PrixPublic Gasoil10PPM" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PETROMINDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="PETROMINDataSet1" msprop:Generator_UserDSName="PETROMINDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PETROMIN" msprop:Generator_TableClassName="PETROMINDataTable" msprop:Generator_TableVarName="tablePETROMIN" msprop:Generator_TablePropName="PETROMIN" msprop:Generator_RowDeletingName="PETROMINRowDeleting" msprop:Generator_RowChangingName="PETROMINRowChanging" msprop:Generator_RowEvHandlerName="PETROMINRowChangeEventHandler" msprop:Generator_RowDeletedName="PETROMINRowDeleted" msprop:Generator_UserTableName="PETROMIN" msprop:Generator_RowChangedName="PETROMINRowChanged" msprop:Generator_RowEvArgName="PETROMINRowChangeEvent" msprop:Generator_RowClassName="PETROMINRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Longitude" msprop:Generator_ColumnVarNameInTable="columnLongitude" msprop:Generator_ColumnPropNameInRow="Longitude" msprop:Generator_ColumnPropNameInTable="LongitudeColumn" msprop:Generator_UserColumnName="Longitude" type="xs:double" minOccurs="0" />
+              <xs:element name="Latitude" msprop:Generator_ColumnVarNameInTable="columnLatitude" msprop:Generator_ColumnPropNameInRow="Latitude" msprop:Generator_ColumnPropNameInTable="LatitudeColumn" msprop:Generator_UserColumnName="Latitude" type="xs:double" minOccurs="0" />
+              <xs:element name="Date_x0020_de_x0020_debut" msprop:Generator_ColumnVarNameInTable="columnDate_de_debut" msprop:Generator_ColumnPropNameInRow="Date_de_debut" msprop:Generator_ColumnPropNameInTable="Date_de_debutColumn" msprop:Generator_UserColumnName="Date de debut" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Date_x0020_de_x0020_fin" msprop:Generator_ColumnVarNameInTable="columnDate_de_fin" msprop:Generator_ColumnPropNameInRow="Date_de_fin" msprop:Generator_ColumnPropNameInTable="Date_de_finColumn" msprop:Generator_UserColumnName="Date de fin" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PrixPublic_x0020_Supersp" msprop:Generator_ColumnVarNameInTable="columnPrixPublic_Supersp" msprop:Generator_ColumnPropNameInRow="PrixPublic_Supersp" msprop:Generator_ColumnPropNameInTable="PrixPublic_SuperspColumn" msprop:Generator_UserColumnName="PrixPublic Supersp" type="xs:int" minOccurs="0" />
+              <xs:element name="PrixPublic_x0020_Gasoil10PPM" msprop:Generator_ColumnVarNameInTable="columnPrixPublic_Gasoil10PPM" msprop:Generator_ColumnPropNameInRow="PrixPublic_Gasoil10PPM" msprop:Generator_ColumnPropNameInTable="PrixPublic_Gasoil10PPMColumn" msprop:Generator_UserColumnName="PrixPublic Gasoil10PPM" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
