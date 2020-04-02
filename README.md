@@ -39,5 +39,10 @@
 
 ![9](https://user-images.githubusercontent.com/47559086/78289651-ca348980-7522-11ea-9c57-7c02b54185de.PNG)
 
+#### XML file format :
+
+![Capture](https://user-images.githubusercontent.com/47559086/78290676-614e1100-7524-11ea-9d7d-63cad66a7ebc.PNG)
+
+
 ## By :
 ### Wail Bouhadda
